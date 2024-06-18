@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+requirements.txt
+in3110_strompris.egg-info/PKG-INFO
+in3110_strompris.egg-info/SOURCES.txt
+in3110_strompris.egg-info/dependency_links.txt
+in3110_strompris.egg-info/requires.txt
+in3110_strompris.egg-info/top_level.txt
+tests/test_app.py
+tests/test_files.py
+tests/test_strompris.py

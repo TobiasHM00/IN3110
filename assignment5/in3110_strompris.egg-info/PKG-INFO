@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: in3110-strompris
+Version: 2023.11.10
+License: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: altair==4.*
+Requires-Dist: altair-viewer
+Requires-Dist: beautifulsoup4
+Requires-Dist: fastapi[all]
+Requires-Dist: pandas
+Requires-Dist: pytest
+Requires-Dist: requests
+Requires-Dist: requests-cache
+Requires-Dist: uvicorn
+
+# IN3110 strømpris

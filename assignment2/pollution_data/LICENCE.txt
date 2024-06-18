@@ -1,0 +1,7 @@
+About this data: 
+
+This data is an adapted version of a dataset from SSB (www.ssb.no). 
+Using this was possible due to Creative Commons Attribution 4.0 International (CC BY 4.0)
+licence, more info at https://www.ssb.no/en/diverse/lisens 
+
+Licence link: https://creativecommons.org/licenses/by/4.0/deed.no
