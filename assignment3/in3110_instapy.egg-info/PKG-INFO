@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: in3110-instapy
+Version: 1.0.0
+Summary: Let's a user convert a rgb image to a gray- og sepia-scaled image
+License: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: numba
+Requires-Dist: pillow
+Requires-Dist: line-profiler
+
+<h1>IN3110_instapy</h1>
+<h2>Description</h2>
+Let's a user convert a rgb image to a gray- og sepia-scaled image
+
+<h2>How to install</h2>
+When you have the package downloaded you can run the command: python3 -m pip install .</br>
+If this does not work you should try with python instead.</br></br>
+If you run into any weird output like Sucsessfully built UNKNOWN, try with this command: python3 -m pip install --upgrade setuptool pip. </br>
+Again if this does not work try with python. </br></br>
+If that still doesn't work you may need to add --no-build-isolation to your pip install command: python3 -m pip install --no-build-isolation .</br>
+Try with python if doesn't work. </br></br>
+If it all succeeded, you should be able to pass the packege tests with this command:</br>
+python3 -m pytest -v test/test_package.py. Try with python if this doesn't work
+
+<h2>Instructions on how to run</h2>
+The package can be run with either instapy 'arguments' or python3 in3110_instapy 'arguments'. If the last option does not work for you try with python instead of python3. You will need to replace arguments with whatever arguments you want to pass to the package. The different possible arguments is:
+
+</br>mandatory argument:</br>
+  file -The filename to apply filter to
+
+optional arguments:</br>
+  -h, --help -show this help message and exit</br></br>
+  -o OUT, --out OUT -The output filename</br></br>
+  -g, --gray -Select gray filter</br></br>
+  -se, --sepia -Select sepia filter</br></br>
+  -sc SCALE, --scale SCALE -Scale factor to resize image</br></br>
+  -i {python,numba,numpy,cython}, --implementation {python,numba,numpy,cython} -The implementation</br></br>
+  -r, --runtime -Tracks the average runtime over 3 calls

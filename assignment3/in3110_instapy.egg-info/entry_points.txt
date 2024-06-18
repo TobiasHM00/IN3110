@@ -1,0 +1,2 @@
+[console_scripts]
+instapy = in3110_instapy.cli:main

@@ -1,0 +1,25 @@
+[build-system]
+requires = [
+    "setuptools>=61",
+    # 4110 only:
+    # "cython>=3",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+version = "1.0.0"
+requires-python = ">=3.8"
+license = {text = "MIT License"}
+name = "in3110_instapy"
+description = "Let's a user convert a rgb image to a gray- og sepia-scaled image"
+readme = "README.md"
+dependencies = [
+    "numpy",
+    "numba",
+    "pillow",
+    "line-profiler"
+]
+
+
+[project.scripts]
+instapy = "in3110_instapy.cli:main"

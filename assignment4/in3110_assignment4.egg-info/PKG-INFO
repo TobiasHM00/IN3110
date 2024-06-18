@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: in3110-assignment4
+Version: 2023.10.1
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: pytest
+Requires-Dist: tabulate
